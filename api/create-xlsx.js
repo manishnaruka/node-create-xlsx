@@ -10,10 +10,10 @@ const nodeXlsx = require("node-xlsx");
 const fs = require("fs");
 
 const data = [
-  ["col_heading1", "col_heading2", "col_heading3"],
-  ["row1_val1", "row1_val2", "row1_val3"],
-  ["row2_val1", "row2_val2", "row2_val3"],
-  ["row3_val1", "row3_val2", "row3_val3"],
+  ["sn", "name"],
+  ["1", "Goku"],
+  ["2", "Gohan"],
+  ["3", "Goteng"],
 ];
 
 exports.create = (request, response, next) => {
